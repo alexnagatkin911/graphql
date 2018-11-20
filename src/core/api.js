@@ -3,7 +3,8 @@ import request from 'request-promise';
 
 import config from './config';
 
-const BASE_URL = config.api.base_url;
+/// const BASE_URL = config.api.base_url;
+const BASE_URL = 'https://conduit.productionready.io/api';
 
 class Api {
   constructor({ endpoint, authenticated=false, replaces=[] }) {
